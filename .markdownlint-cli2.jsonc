@@ -1,0 +1,10 @@
+{
+  // Rules relaxed on purpose: long lines are fine in prose, and tables/HTML comments are used in templates.
+  "config": {
+    "MD013": false,
+    "MD033": false,
+    "MD041": false,
+    "MD060": false
+  },
+  "ignores": ["**/node_modules/**", "web/.next/**", "web/out/**", "functions/lib/**"]
+}

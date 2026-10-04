@@ -1,9 +1,28 @@
+# secrets & env (templates stay committed)
+.env
+.env.*
+!.env.example
+*-firebase-adminsdk-*.json
+service-account*.json
+
+# personal data that must never be public (POPIA)
+research-private/
+exports/
+*.fit
+*.gpx
+*.mp4
+*.m4a
+*.mov
+
+# deps & builds
 node_modules/
 functions/lib/
-functions/.env
 web/.next/
 web/out/
-web/.env.local
 .firebase/
-*.log
+*.tsbuildinfo
+
+# os / editor / logs
 .DS_Store
+*.log
+.claude/settings.local.json
