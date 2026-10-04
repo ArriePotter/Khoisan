@@ -2,7 +2,7 @@
 
 - **Owner:** Arno van Heerden (Design Lead)
 - **Phase:** 0, Brief
-- **Status:** In review
+- **Status:** Approved (gate passed 2026-10-04)
 - **Last updated:** 2026-10-04
 - **Note:** drafted by Claude from Arno's Phase 0 answers (given one question at a time, each critiqued and confirmed). Arno reviews, corrects and approves it.
 
@@ -103,5 +103,5 @@ Claude makes the Figma work and the code; Arno is the Design Lead who frames the
 ## Sign-off
 
 - [x] All sections complete
-- [ ] Reviewed and corrected by Arno
-- [ ] Approved by Arno (gate)
+- [x] Reviewed and corrected by Arno
+- [x] Approved by Arno (gate), 2026-10-04
