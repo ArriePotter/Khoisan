@@ -18,7 +18,7 @@ Data privacy: each runner's plan and daily data are readable only by that runner
 
 ## Layout
 
-```
+```text
 functions/   Cloud Functions (TypeScript): sync, planning, Claude, guardrails
   src/engine/   pure logic + tests (skeleton, templates, guardrails, readiness, stats)
   src/coach/    Claude prompt/client and the Firestore orchestration
@@ -32,6 +32,7 @@ web/         Next.js static app (Firebase Hosting), installable on iPhone home s
    - Firestore → create a database (e.g. `africa-south1`).
    - Project settings → add a **Web app**, and copy its config.
 2. **Local config**
+
    ```bash
    npm i -g firebase-tools && firebase login
    firebase use --add                                     # pick your project
@@ -39,11 +40,14 @@ web/         Next.js static app (Firebase Hosting), installable on iPhone home s
    firebase functions:secrets:set ANTHROPIC_API_KEY       # from console.anthropic.com
    cp web/.env.example web/.env.local                     # fill in the web app config
    ```
+
 3. **Deploy**
+
    ```bash
    (cd functions && npm install) && (cd web && npm install)
    firebase deploy
    ```
+
 4. **Each runner**
    - Create an intervals.icu account. Under Settings → Connections, connect Garmin or COROS and allow planned-workout upload.
    - Under Settings → Developer Settings, copy your Athlete ID and create an API key.
