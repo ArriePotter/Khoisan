@@ -3,7 +3,7 @@
 - **Date:** 2026-10-04
 - **Evidence base:** P1 baseline check and sync check (`log.md`), desk research (`desk/today-and-explanations.md`). P2's sessions moved to Validate (decision 0004).
 - **Caveat:** P1 is also the designer. Every user insight is "1 of 1" and stays a hypothesis until P2 confirms it.
-- **Status:** Awaiting Arno's acceptance at the insight readout (gate)
+- **Status:** Accepted by Arno at the insight readout (Discover gate passed 2026-10-04)
 
 ## 1. Today's session is there, but it's buried
 
