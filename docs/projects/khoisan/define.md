@@ -2,7 +2,7 @@
 
 - **Phase:** 2, Define (product strategy + interaction design)
 - **Inputs:** [brief](brief.md), [insights](../../research/insights.md), [desk research](../../research/desk/today-and-explanations.md)
-- **Status:** Awaiting scope sign-off
+- **Status:** Scope signed off by Arno (Define gate passed 2026-10-04)
 - **Last updated:** 2026-10-04
 
 ## 1. Problem statement
@@ -91,4 +91,4 @@ Priority uses MoSCoW for the **first view** of the redesign: **Must** be seen fi
 ## Sign-off
 
 - [x] All sections complete
-- [ ] Scope signed off by Arno (gate)
+- [x] Scope signed off by Arno (gate), 2026-10-04
