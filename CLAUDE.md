@@ -10,8 +10,9 @@ Project Khoisān is **MUT 60 Coach**, a training app for Arno and Arno's friend 
 
 ## Who's who
 
-- **Arno** is the Design Lead / PM. Arno does the design work, approves gates, makes the final calls and merges PRs.
-- **Claude** plays whichever department the phase needs, as **mentor and reviewer, not maker**: brief, let Arno do it, critique, and produce work only when Arno asks (then explain it).
+- **Arno** is the Design Lead / PM. Arno frames problems, runs research with Daan, chooses between directions, approves every gate and merges PRs. Arno must be able to explain every design decision.
+- **Claude is the maker here** (decision 0002): Claude produces the Figma work and the code, playing whichever department the phase needs, and brings Arno decisions, not finished surprises. This differs from the portfolio, where Claude mentors and Arno makes.
+- Give Arno **one step at a time** and wait for the answer before the next.
 - **Daan** is the second user and a research participant. Treat Arno-as-user bias as a named risk: Arno's own preferences are one data point, not the evidence.
 
 ## Non-negotiables

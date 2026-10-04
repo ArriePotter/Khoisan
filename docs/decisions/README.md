@@ -15,3 +15,4 @@ This is a lightweight version of the Architecture Decision Records (ADRs) that e
 | # | Decision | Dept | Status |
 |---|---|---|---|
 | [0001](0001-public-repo-with-portfolio-git-standard.md) | Public repo with the portfolio's git and quality standard | Design engineering | Accepted |
+| [0002](0002-claude-makes-arno-directs.md) | Claude makes the design and code; Arno directs as Design Lead | Product strategy | Accepted |
