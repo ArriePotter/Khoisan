@@ -25,6 +25,8 @@ Ordered by the brief's risks, riskiest first.
 | 4 | **Interview** (past behaviour, ~20 min) | 4, 5 | P2 (P1 answers in writing, flagged as designer-bias) | 7–9 Oct | Quotes and patterns |
 | 5 | **Desk research:** how Garmin Connect, COROS and intervals.icu show today's session and explain adaptive changes | 5 | Claude | 5–9 Oct | Tiered sources (portfolio `docs/sources.md`) |
 
+**Before method 2:** add P2's Google sign-in email to `ALLOWED_EMAILS` in `functions/.env` (gitignored) and run `firebase deploy --only functions`. Today only one email is allowed, so P2 would be rejected at sign-in, and that failure would have nothing to do with the design.
+
 ## Measures
 
 - **Task success:** time to say today's session, and pass / pass with difficulty / fail.
