@@ -1,0 +1,35 @@
+rules_version = '2';
+
+// Clients are read-only. Every write goes through Cloud Functions (Admin SDK),
+// which is where the guardrails live.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function isMember() { return signedIn() && exists(/databases/$(database)/documents/members/$(request.auth.uid)); }
+
+    // Your own plan, activities, wellness and coach log: only you.
+    match /athletes/{uid} {
+      allow read: if signedIn() && request.auth.uid == uid;
+      match /{sub=**} {
+        allow read: if signedIn() && request.auth.uid == uid;
+      }
+    }
+
+    // Headline comparison numbers: readable by both team members.
+    match /stats/{uid} {
+      allow read: if isMember();
+    }
+    match /members/{uid} {
+      allow read: if isMember();
+    }
+
+    // intervals.icu API keys: never readable from the client.
+    match /private/{uid} {
+      allow read, write: if false;
+    }
+
+    match /{document=**} {
+      allow write: if false;
+    }
+  }
+}

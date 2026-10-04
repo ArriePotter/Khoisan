@@ -1,0 +1,15 @@
+{
+  "name": "Project Khoisān",
+  "short_name": "Khoisān",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9f9f7",
+  "theme_color": "#f9f9f7",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

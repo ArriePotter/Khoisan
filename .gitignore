@@ -1,0 +1,9 @@
+node_modules/
+functions/lib/
+functions/.env
+web/.next/
+web/out/
+web/.env.local
+.firebase/
+*.log
+.DS_Store
