@@ -53,3 +53,10 @@ The Today structure was fixed in Explore (decision 0005); the brand attributes a
 ## Case-study note
 
 It took six rounds to find the look; the one that stuck came from my own references, and every refinement after it has a reason I can state.
+
+## Update (5 Oct, later)
+
+- **Palettes:** Day trail = Sandstone light (all ink, accent Deep ocean #24586B, which replaced corten after Arno found it clashed); Night trail = Basalt (off-white text #F2EFE8, ochre accent). Corten became an exploration only.
+- **Card treatment:** lines are faded inside every card, field and secondary button (card-shaped backdrop at 35% of line strength by day, 15% by night), replacing the blurs; blur thickened lines.
+- **Sign in:** map-style contours (index + stippled lines) with decorative labels set into the lines, race coordinates, a checkpoint beacon on the course; lines faded behind the title.
+- Review fixes are recorded in 0009.

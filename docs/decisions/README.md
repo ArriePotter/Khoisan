@@ -22,3 +22,4 @@ This is a lightweight version of the Architecture Decision Records (ADRs) that e
 | [0006](0006-personalise-onboarding-within-scope.md) | Personalise onboarding with guided coach notes + visible starting point, not new fields | Interaction design | Accepted |
 | [0007](0007-brand-attributes-and-ridgeline-motif.md) | Brand: Rugged, Grounded, Relentless; ridgeline motif from our own data | Visual design | Accepted |
 | [0008](0008-visual-direction-trailhead-sign.md) | Visual direction "Trailhead sign" (A1) and its refinements | Visual design | Accepted |
+| [0009](0009-design-review-fixes-and-scope.md) | Design review fixes, phone-only scope, decorative map labels | Visual + interaction design | Accepted |
