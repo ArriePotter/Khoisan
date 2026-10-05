@@ -21,3 +21,4 @@ This is a lightweight version of the Architecture Decision Records (ADRs) that e
 | [0005](0005-today-week-strip-and-today-card.md) | Today = week strip + today card, with one visible reason line | Interaction design | Accepted |
 | [0006](0006-personalise-onboarding-within-scope.md) | Personalise onboarding with guided coach notes + visible starting point, not new fields | Interaction design | Accepted |
 | [0007](0007-brand-attributes-and-ridgeline-motif.md) | Brand: Rugged, Grounded, Relentless; ridgeline motif from our own data | Visual design | Accepted |
+| [0008](0008-visual-direction-trailhead-sign.md) | Visual direction "Trailhead sign" (A1) and its refinements | Visual design | Accepted |

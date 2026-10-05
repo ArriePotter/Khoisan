@@ -4,6 +4,7 @@ Motion intent captured during Design, to be specified properly in the motion pha
 
 | # | Element | Behaviour | Why | Reduced motion | Source |
 |---|---|---|---|---|---|
-| 1 | Season progress label (Today, `App/Season progress`) | On page load, the current checkpoint's name (e.g. "Build") first appears under its checkpoint on the mountain, then slides left to its resting place, left-aligned below the course. | Ties the word to *where you are* on the course before it settles into a calm, scannable position. | No slide: show the label left-aligned straight away. | Arno, 2026-10-05 |
-| 2 | Season progress line | The solid "done" part of the course draws from Start to the current checkpoint. | Relentless: progress that adds up. | Show the final state, no draw. | Decision 0007 |
-| 3 | Loading screen | The ridgeline draws line by line, left to right. | Grounded + Relentless motif. | Static ridgeline. | Decision 0007 |
+| 1 | Season progress on Today (`App/Season progress`), on page open | In sequence: (1) the solid line draws from Start to today's position, slow at first and speeding up as it nears today's point; (2) today's checkpoint gives one outward glow pulse; (3) the checkpoint's name appears under the checkpoint, then slides left to its left-aligned resting place below the course. | Relentless: the season builds up to where you are today, then the screen settles into a calm, scannable state. | Show the final state straight away, with no draw, glow or slide. | Arno, 2026-10-05 |
+| 2 | Loading screen | The ridgeline draws line by line, left to right. | Grounded + Relentless motif. | Static ridgeline. | Decision 0007 |
+
+**To test in the motion phase:** accelerating *into* a stop can feel abrupt. If it does, add a short settle at the end (*judgement*).
